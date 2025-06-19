@@ -7,7 +7,7 @@
 }
 
 body {
-   background: #080808;
+   background: #000000;
    color: #fff;
 }
    
@@ -20,13 +20,14 @@ body {
     background-position: center;    
 
 }
+
 .logo {
     width: 150px;
 }
 
 .navbar {
-    background-color: #080808;
-    padding: 10px 15%;
+    background-color: #040404;
+    padding: 8px 15%;
 }
 
 .navbar ul li a {
@@ -61,17 +62,22 @@ body {
     width: 100%;    
 }
 
-.navbar .navbar-toggler{
 
-border-radius: 8px;
-transition: .15s ease-in-out;
-border: #4edf2d solid 1px;
-color: #4edf2d;
+
+.navbar .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;   
+    
 }
-.navbar .navbar-toggler-icon{
-background: #514a4a ;
-border:none;
+.navbar .navbar-toggler{  
+  background-color: #4edf2d;
 }
+
 
 
 .header-text {
