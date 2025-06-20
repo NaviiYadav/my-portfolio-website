@@ -90,7 +90,11 @@ body {
 .hero .social-links a:hover {
   background-color:#4edf2d;
 }
-
+@media (max-width: 450px) {
+    .hero img{
+     content:  url('Images/img7.PNG');
+    }
+  }
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
